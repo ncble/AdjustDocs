@@ -1,0 +1,6 @@
+data/**
+output/**
+inference/**
+weights/**
+src/.ipynb_checkpoints
+src/unet/__pycache__
