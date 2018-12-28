@@ -1,4 +1,6 @@
-
+"""
+Copyright 2018 LIN Lu (ncble)
+"""
 import os, glob,sys
 import numpy as np
 import subprocess

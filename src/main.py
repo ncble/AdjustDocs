@@ -1,3 +1,6 @@
+"""
+Copyright 2018 LIN Lu (ncble)
+"""
 import os, sys
 ROOT_PATH = os.path.expanduser("~")
 import socket
