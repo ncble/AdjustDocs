@@ -2,7 +2,7 @@
 
 
 ### Objective
-This simple project amis to develop an application that adjusts documents after taking pictures. Most of mobile phone are capable of adjusting natural images but not documents (especially the handwritten documents). 
+This simple/toy project amis to develop an application that adjusts documents after taking pictures. Most of mobile phone are capable of adjusting natural images but not documents (especially the handwritten documents). 
 
 
 ### Dataset
@@ -17,9 +17,10 @@ The (private) dataset is constituted by
 
 ### Results
 
-Developing a network that fits for the dataset with a such diversity isn't simple. By focusing on both handwritten and typed documents, I have achieved **99,93% accuracy** for four classes classification. Note that in the handwritten collection, *some pictures are alomost blank with scribbled note*. The main idea is to pass a filter that crops the interesting area then to train the network on patch of images.
+Developing a network that fits for the dataset with a such diversity isn't simple. By focusing on both handwritten and typed documents, I have achieved **99,93% accuracy** for four classes (0, 90, 180, 270 degrees rotation) classification. Note that in the handwritten collection, *some pictures are alomost blank with scribbled note*. The main idea is to pass a filter (unsupervised) that crops the interesting area then to train the network on patch of images. As a comparison, without these preprocessing, the accuracy is only 70%.
 
-Further improvement could be done by introducing some transfer learning techniques.
+
+Further improvement could be done by introducing some transfer learning techniques. (TODO)
 
 
 
